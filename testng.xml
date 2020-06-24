@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="HomePage">
+    <classes>
+    	<class name="com.droom.Test.HomePageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SellPage">
+  <classes>
+    	<class name="com.droom.Test.SellOnDroomPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="SellFormat">
+  <classes>
+    	 <class name="com.droom.Test.SellingFormatPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="CreateQucikSellListing">
+  <classes>
+    	 <class name="com.droom.Test.CreateQuickSellListingPageTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

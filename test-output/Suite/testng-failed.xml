@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="SellFormat(failed)">
+    <classes>
+      <class name="com.droom.Test.CreateQuickSellListingPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- com.droom.Test.CreateQuickSellListingPageTest -->
+      <class name="com.droom.Test.SellingFormatPageTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="verifySellFormatPage"/>
+        </methods>
+      </class> <!-- com.droom.Test.SellingFormatPageTest -->
+      <class name="com.droom.Test.SellOnDroomPageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="AfterMethod"/>
+        </methods>
+      </class> <!-- com.droom.Test.SellOnDroomPageTest -->
+      <class name="com.droom.Test.HomePageTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.droom.Test.HomePageTest -->
+    </classes>
+  </test> <!-- SellFormat(failed) -->
+</suite> <!-- Failed suite [Suite] -->
